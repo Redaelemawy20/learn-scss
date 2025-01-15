@@ -1,0 +1,13 @@
+// nesting
+.parent {
+  font-weight: 700;
+  .list {
+    display: flex;
+    .list-item {
+      margin-left: 10px;
+    }
+  }
+  .logo {
+    display: inline;
+  }
+}

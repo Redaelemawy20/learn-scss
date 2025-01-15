@@ -2,10 +2,27 @@
   --main-color: red;
 }
 
+a {
+  color: yellow;
+}
+
+.parent {
+  font-weight: 700;
+}
+.parent .list {
+  display: flex;
+}
+.parent .list .list-item {
+  margin-left: 10px;
+}
+.parent .logo {
+  display: inline;
+}
+
 h1 {
   color: red;
 }
 
 p {
   color: green;
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
