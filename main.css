@@ -8,4 +8,16 @@ a {
 
 body {
   background-color: var(--main-color);
+}
+
+.section1 {
+  color: blue;
+}
+
+.section2 ul {
+  background-color: white;
+}
+
+.section3 {
+  color: blue;
 }/*# sourceMappingURL=main.css.map */

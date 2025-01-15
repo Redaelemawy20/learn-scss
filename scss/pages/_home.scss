@@ -2,3 +2,17 @@
 body {
   background-color: var(--main-color);
 }
+$color: blue; // global variable
+
+.section1 {
+  color: $color; // blue
+}
+.section2 {
+  $color: white; // local variable
+  ul {
+    background-color: $color; // white
+  }
+}
+.section3 {
+  color: $color; // blue
+}
