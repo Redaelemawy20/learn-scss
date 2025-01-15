@@ -1,0 +1,11 @@
+// refere parent with &
+
+nav {
+  ul {
+    display: flex;
+  }
+  &.hidden {
+    // equal to nav.active
+    display: none;
+  }
+}

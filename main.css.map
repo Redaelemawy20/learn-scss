@@ -1,1 +1,1 @@
-{"version":3,"sources":["scss/layout/_global.scss","main.css","scss/examples/grouping/_direct-child.scss"],"names":[],"mappings":"AACA;EACE,iBAAA;ACAF;;ADIA;EACE,aAFW;ACCb;;ACJE;EACE,UAAA;ADOJ;ACLE;EACE,YAAA;ADOJ;;ACDE;EACE,kBAAA;ADIJ;ACFE;EACE,aAAA;ADIJ","file":"main.css"}
+{"version":3,"sources":["scss/layout/_global.scss","main.css","scss/examples/grouping/_parent.scss"],"names":[],"mappings":"AACA;EACE,iBAAA;ACAF;;ADIA;EACE,aAFW;ACCb;;ACHE;EACE,aAAA;ADMJ;ACJE;EAEE,aAAA;ADKJ","file":"main.css"}
