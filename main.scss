@@ -8,11 +8,4 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/grouping/normal';
-
-h1 {
-  color: colors.$main-color;
-}
-p {
-  color: colors.$alt-color;
-}
+@use './scss/examples/grouping/direct-child';

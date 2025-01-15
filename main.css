@@ -6,19 +6,16 @@ a {
   color: yellow;
 }
 
-.section1,
-.section2 {
-  padding: 30px;
-}
-.section1 header,
-.section2 header {
-  font-size: 20px;
-}
-
-h1 {
+.parent > h1 {
   color: red;
 }
-
-p {
+.parent > p {
   color: green;
+}
+
+.parent2 > h2 {
+  padding-left: 30px;
+}
+.parent2 ul {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

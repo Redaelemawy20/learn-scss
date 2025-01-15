@@ -1,0 +1,19 @@
+.parent > {
+  // both will be direct child
+  h1 {
+    color: red;
+  }
+  p {
+    color: green;
+  }
+}
+
+.parent2 {
+  // only h2 will be direct child
+  > h2 {
+    padding-left: 30px;
+  }
+  ul {
+    display: none;
+  }
+}
