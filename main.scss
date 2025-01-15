@@ -8,7 +8,7 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/grouping';
+@use './scss/examples/grouping/normal';
 
 h1 {
   color: colors.$main-color;
