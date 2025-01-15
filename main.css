@@ -6,17 +6,13 @@ a {
   color: yellow;
 }
 
-.parent {
-  font-weight: 700;
+.section1,
+.section2 {
+  padding: 30px;
 }
-.parent .list {
-  display: flex;
-}
-.parent .list .list-item {
-  margin-left: 10px;
-}
-.parent .logo {
-  display: inline;
+.section1 header,
+.section2 header {
+  font-size: 20px;
 }
 
 h1 {

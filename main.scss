@@ -8,7 +8,8 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/nesting';
+@use './scss/examples/grouping';
+
 h1 {
   color: colors.$main-color;
 }
