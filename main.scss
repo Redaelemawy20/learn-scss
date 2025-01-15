@@ -1,3 +1,15 @@
+// import global styles
 @use './scss/layout/global';
 
+// import pages
 @use './scss/pages/home';
+
+// import variables
+@use './scss/variables/colors';
+
+h1 {
+  color: colors.$main-color;
+}
+p {
+  color: colors.$alt-color;
+}
