@@ -2,3 +2,8 @@
 :root {
   --main-color: red; // css variable will show in the result file
 }
+
+$text_color: yellow; // scss variable
+a {
+  color: $text_color; // will show only the value at the output file
+}
