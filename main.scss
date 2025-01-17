@@ -8,4 +8,9 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/mixins/circle';
+// mixins WILL WORK using @import AND NOT working with @use
+@import './scss/examples/mixins/circle';
+
+.outside {
+  @include circle(50px);
+}
