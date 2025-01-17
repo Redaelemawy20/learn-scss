@@ -8,8 +8,4 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/functions/double' as *;
-
-.my-element {
-  top: #{double(5)}px;
-}
+@use './scss/examples/mixins/overlay';
