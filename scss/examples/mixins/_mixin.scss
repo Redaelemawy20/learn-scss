@@ -1,0 +1,17 @@
+@mixin centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin row {
+  flex-direction: row;
+}
+@mixin col {
+  flex-direction: column;
+}
+
+.nav {
+  @include centering;
+  @include row;
+}

@@ -6,9 +6,9 @@ a {
   color: yellow;
 }
 
-nav ul {
+.nav {
   display: flex;
-}
-nav.hidden {
-  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }/*# sourceMappingURL=main.css.map */
