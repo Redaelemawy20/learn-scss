@@ -1,0 +1,10 @@
+@mixin circle($dimension) {
+  border-radius: 50%;
+  width: $dimension;
+  height: $dimension;
+}
+
+.logo {
+  background-color: gray;
+  @include circle(50px);
+}
