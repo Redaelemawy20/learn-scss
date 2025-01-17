@@ -1,0 +1,8 @@
+$themes: red, green;
+
+@each $theme in $themes {
+  #{$theme}-theme {
+    background-color: $theme;
+    color: white;
+  }
+}
