@@ -6,26 +6,52 @@ a {
   color: yellow;
 }
 
-red-theme {
-  background-color: red;
-  color: white;
+.width-100 {
+  width: 100px;
+  height: 50;
 }
 
-green-theme {
-  background-color: green;
-  color: white;
+.width-200 {
+  width: 200px;
+  height: 100;
 }
 
-.facebook {
-  background-color: blue;
-}
-.facebook::before {
-  content: "facebook";
+.width-300 {
+  width: 300px;
+  height: 150;
 }
 
-.youtube {
-  background-color: red;
+.width-400 {
+  width: 400px;
+  height: 200;
 }
-.youtube::before {
-  content: "youtube";
+
+.width-500 {
+  width: 500px;
+  height: 250;
+}
+
+.width-600 {
+  width: 600px;
+  height: 300;
+}
+
+.width-700 {
+  width: 700px;
+  height: 350;
+}
+
+.width-800 {
+  width: 800px;
+  height: 400;
+}
+
+.width-900 {
+  width: 900px;
+  height: 450;
+}
+
+.width-1000 {
+  width: 1000px;
+  height: 500;
 }/*# sourceMappingURL=main.css.map */
