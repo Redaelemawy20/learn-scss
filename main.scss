@@ -8,10 +8,16 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/mixins/with-top-left' as *;
+@use './scss/examples/mixins/breakpoints' as *;
 
-.icon {
-  @include with-top-left() {
-    background-color: blanchedalmond;
+.heading {
+  @include breakpoints(xs) {
+    font-size: 10px;
+  }
+  @include breakpoints(sm) {
+    font-size: 12px;
+  }
+  @include breakpoints(md) {
+    font-size: 10px;
   }
 }
