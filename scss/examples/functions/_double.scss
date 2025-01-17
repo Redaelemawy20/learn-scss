@@ -1,0 +1,7 @@
+@function double($size) {
+  @return $size * 2;
+}
+
+.container {
+  width: #{double(13)}px;
+}
