@@ -6,6 +6,46 @@ a {
   color: yellow;
 }
 
+.padding-1 {
+  padding: 12px;
+}
+
+.padding-2 {
+  padding: 14px;
+}
+
+.padding-3 {
+  padding: 16px;
+}
+
+.padding-4 {
+  padding: 18px;
+}
+
+.padding-5 {
+  padding: 20px;
+}
+
+.padding-6 {
+  padding: 22px;
+}
+
+.padding-7 {
+  padding: 24px;
+}
+
+.padding-8 {
+  padding: 26px;
+}
+
+.padding-9 {
+  padding: 28px;
+}
+
+.padding-10 {
+  padding: 30px;
+}
+
 .logo {
   background-color: gray;
   border-radius: 50%;
