@@ -1,0 +1,12 @@
+$themes: red, green, black, white;
+
+@each $theme in $themes {
+  #{$theme}-theme {
+    @if $theme == white {
+      background-color: transparent;
+    } @else {
+      background-color: $theme;
+    }
+    color: if($theme == white, black, white);
+  }
+}
