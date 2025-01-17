@@ -16,12 +16,16 @@ green-theme {
   color: white;
 }
 
-black-theme {
-  background-color: black;
-  color: white;
+.facebook {
+  background-color: blue;
+}
+.facebook::before {
+  content: "facebook";
 }
 
-white-theme {
-  background-color: transparent;
-  color: black;
+.youtube {
+  background-color: red;
+}
+.youtube::before {
+  content: "youtube";
 }/*# sourceMappingURL=main.css.map */

@@ -6,3 +6,16 @@ $themes: red, green;
     color: white;
   }
 }
+
+$socials: (
+  'facebook': blue,
+  'youtube': red,
+);
+@each $name, $color in $socials {
+  .#{$name} {
+    background-color: $color;
+    &::before {
+      content: $name;
+    }
+  }
+}
