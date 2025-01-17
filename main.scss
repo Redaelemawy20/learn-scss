@@ -8,4 +8,10 @@
 @use './scss/variables/colors';
 
 // import examples
-@use './scss/examples/mixins/overlay';
+@use './scss/examples/mixins/with-top-left' as *;
+
+.icon {
+  @include with-top-left() {
+    background-color: blanchedalmond;
+  }
+}
