@@ -1,0 +1,11 @@
+// block
+.textfield {
+  // element
+  &__input {
+    line-height: 10px;
+  }
+  // modifier
+  &.texfield-error {
+    color: red;
+  }
+}

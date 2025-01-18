@@ -6,15 +6,9 @@ a {
   color: yellow;
 }
 
-.btn {
-  padding: 2px 10px;
-  border-radius: 2px;
+.textfield__input {
+  line-height: 10px;
 }
-.btn.btn-primary {
-  background-color: blue;
-  color: white;
-}
-.btn-secondary {
-  background-color: green;
-  color: white;
+.textfield.texfield-error {
+  color: red;
 }/*# sourceMappingURL=main.css.map */
