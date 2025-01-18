@@ -1,0 +1,14 @@
+.btn {
+  padding: 2px 10px;
+  border-radius: 2px;
+  &.btn-primary {
+    // result selector will be .btn.btn-primary
+    background-color: blue;
+    color: white;
+  }
+  &-secondary {
+    // the result selector will be .btn-secondary we lose the socping here
+    background-color: gray;
+    color: white;
+  }
+}
