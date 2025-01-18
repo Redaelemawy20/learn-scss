@@ -6,9 +6,27 @@ a {
   color: yellow;
 }
 
-.textfield__input {
-  line-height: 10px;
+.btn {
+  padding: 2px 10px;
+  border-style: solid;
+  border-width: 1px;
+  line-height: 20px;
+  border-radius: 2px;
 }
-.textfield.texfield-error {
-  color: red;
+.btn.btn--primary {
+  background-color: #c46;
+  color: white;
+}
+.btn.btn--secondary {
+  background: rgba(238, 221, 187, 0.8);
+  color: black;
+}
+.btn:disabled {
+  opacity: 0.5;
+}
+.btn:disabled .btn__price {
+  background: #aaa;
+}
+.btn .btn__price {
+  background: green;
 }/*# sourceMappingURL=main.css.map */
